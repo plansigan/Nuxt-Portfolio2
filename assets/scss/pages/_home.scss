@@ -1,0 +1,61 @@
+.section-about {
+    background-color: $color-grey-dark-4;
+    padding: 20rem 0;
+    margin-top: -20vh;
+
+    @include respond(tab-port) {
+        padding: 20rem 0;
+    }
+}
+
+.section-projects {
+    padding: 16rem 0;
+    padding-bottom: 25rem;
+    background-color: $color-yellow-1;
+    // background-image: linear-gradient(
+    //     to right bottom,
+    //     rgba($color-grey-dark, .5),
+    //     rgba($color-grey-dark-3, .5)),
+    // url(./images/background/scenery5.jpg);
+    background-size: cover;
+    -webkit-clip-path: polygon(0 10vh, 100% 0, 50% 50%, 0% 100%);
+    clip-path: polygon(0 10vh, 100% 0, 100% 100%, 0% 100%);
+    margin-top: -10rem;
+
+    @include respond(tab-port) {
+        padding: 10rem 0;
+    }
+    
+
+}
+
+
+.section-skills {
+     background-color:$color-green-1;
+    padding: 15rem 0;
+    // background-image: linear-gradient(
+    //     to right bottom,
+    //     rgba($color-grey-dark, .5),
+    //     rgba($color-grey-dark-3, .5)),
+    // url(./images/background/scenery5.jpg);
+    background-size: cover;
+    -webkit-clip-path: polygon(50% 0%, 100% 20%, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 20%);
+    clip-path: polygon(50% 0%, 100% 20%, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 20%);
+    margin-top: -16rem;
+
+    @include respond(tab-port) {
+        padding: 20rem 0;
+        margin-top:-19rem;
+        -webkit-clip-path: polygon(50% 10%, 100% 20%, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 20%);
+        clip-path: polygon(50% 10%, 100% 20%, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 20%);
+    }
+
+    @include respond(phone) {
+        margin-top: -17rem;
+        padding: 15rem 0;
+        -webkit-clip-path: polygon(50% 10%, 100% 20%, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 20%);
+        clip-path: polygon(50% 10%, 100% 20%, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 20%);
+    }
+    position:relative;
+
+}

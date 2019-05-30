@@ -1,0 +1,32 @@
+.about-1{
+    background-image: url("/img/about/phmap1.png");   
+}
+
+.about-2{
+    background-image: url("/img/about/animetv.png");   
+}
+
+.about-3{
+    background-image: url("/img/about/jpmap2.png");
+    
+}
+
+.about-1,.about-2,.about-3{
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-color:$color-grey-dark-4;
+    height:20rem;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction:column;
+    text-align:center;
+}
+
+
+@include respond(phone) {
+    .about-1,.about-2,.about-3{
+        height:18rem;
+    }
+}

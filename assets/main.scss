@@ -1,0 +1,31 @@
+
+
+//ABSTRACTS
+@import "scss/abstracts/variables";
+@import "scss/abstracts/mixins";
+
+
+
+//BASE
+
+@import "scss/base/animations";
+@import "scss/base/typography";
+@import "scss/base/utilities";
+@import "scss/base/base";
+
+
+
+//COMPONENTS
+@import "scss/components/button";
+@import "scss/components/bg-video";
+
+//LAYOUT
+@import "scss/layout/header";
+@import "scss/layout/story";
+@import "scss/layout/navigation";
+@import "scss/layout/about";
+@import "scss/layout/grid";
+@import "scss/layout/footer";
+
+//PAGES
+@import "scss/pages/home"
